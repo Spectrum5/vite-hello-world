@@ -1,25 +1,19 @@
 <script>
 export default {
-  data() {
-    return {
-      count: 0
+    data() {
+        return {
+            title: 'La mia prima app con Vite!!',
+        }
     }
-  }
 }
 </script>
 
 <template>
-  <h1>
-    La mia prima app con Vite!
-  </h1>
+    <h1>{{ title }}</h1>
 </template>
 
 <style scoped>
-button {
-  font-weight: bold;
-}
-
-h1{
+h1 {
     color: red;
 }
 </style>
